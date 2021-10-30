@@ -127,7 +127,6 @@ elif 2 <= age <=16:
     #Công thức chri số lượng cơ thể (BMI)
     bmi1 =bmi(w,a)
     print("Result".center(30,"-")+f"\n>> Your BMI : {bmi1}\n"+"".ljust(30,"-"))
-    
     bmiss(bmi1)
     solo(a)
 elif age >16:
