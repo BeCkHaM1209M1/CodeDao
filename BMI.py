@@ -1,4 +1,6 @@
+# name=input('Your name :').capitalize()
 age  = int(input("Your age  : "))
+sex=input("sex : ").capitalize()
 #Def
 def printideaw(a,b):
     print(f"Your ideal weight is :{a} -{b} kg")
@@ -72,8 +74,7 @@ def weightideaM(a):
         printideaw(75,89)
     else:
         print("No Data")
-def solo(h):
-    sex=input("sex : ").capitalize()
+def solo(h,sex):
     a= True
     if sex.startswith("Ma")==True:
         weightideaM(h)
@@ -110,6 +111,11 @@ def bmiss(a):
         print("Your body is Grade III obesity")
     else:
         print("Your are Monster !!")
+# def infomation():
+#     # print("\n".join('*'*5+f'Name: {name}'+f'Your age: {age}'+f'Sex: {sex}'))\
+#     ino={(('Name: ','Trandat'),('Age: ','15'),('Sex: ','Male'))}
+
+
 # print("If you are an infant(age smaller 1), you do not need to enter your height and your weight!")
 #Caculator
 if age <= 1:
