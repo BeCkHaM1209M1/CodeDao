@@ -6,74 +6,41 @@ def printideaw(a,b):
     print(f"Your ideal weight is :{a} -{b} kg")
 # weightidea của Female
 def weightideaF(h):
-    if 148<=h<150:
-        printideaw(45,49)
-    elif h<152:
-        printideaw(46,50)
-    elif h<154:
-        printideaw(47,52)
-    elif h<156:
-        printideaw(48,53)
-    elif h<158:
-        printideaw(49,54)
-    elif h<160:
-        printideaw(51,56)
-    elif h<162:
-        printideaw(52,57)
-    elif h<164:
-        printideaw(53,59)
-    elif h<166:
-        printideaw(55,60)
-    elif h<168:
-        printideaw(56,62)
-    elif h<170: 
-        printideaw(57,63)
-    elif h<172:
-        printideaw(59,65)
-    elif h<174:
-        printideaw(60,66)
-    elif h<176:
-        printideaw(61,67)
-    else:
-        print("No Data")
+    if 148<=h<150:printideaw(45,49)
+    elif h<152:printideaw(46,50)
+    elif h<154:printideaw(47,52)
+    elif h<156:printideaw(48,53)
+    elif h<158:printideaw(49,54)
+    elif h<160:printideaw(51,56)
+    elif h<162:printideaw(52,57)
+    elif h<164:printideaw(53,59)
+    elif h<166:printideaw(55,60)
+    elif h<168:printideaw(56,62)
+    elif h<170:printideaw(57,63)
+    elif h<172:printideaw(59,65)
+    elif h<174:printideaw(60,66)
+    elif h<176:printideaw(61,67)
+    else:      print("No Data")
 # weightidea của Male
 def weightideaM(a):
-    if 140<=a<142:
-        printideaw(30,39)
-    elif 142<=a<144:
-        printideaw(33,40)
-    elif 144<=a<147:
-        printideaw(35,44)
-    elif 147<=a<150:
-        printideaw(38,46)
-    elif 150<=a<152:
-        printideaw(40,50)
-    elif 152<=a<155:
-        printideaw(42,53)
-    elif 155<=a<157:
-        printideaw(45,55)
-    elif 157<=a<160:
-        printideaw(48,59)
-    elif 160<=a<162:
-        printideaw(50,61)
-    elif 162<=a<165:
-        printideaw(53,65)
-    elif 165<=a<168:
-        printideaw(56,68)
-    elif 168<=a<170:
-        printideaw(58,70)
-    elif 170<=a<173:
-        printideaw(60,74)
-    elif 173<=a<175:
-        printideaw(63,76)
-    elif 175<=a<178:
-        printideaw(65,80)
-    elif 180<=a<183:
-        printideaw(75,85)
-    elif 183<=a<184:
-        printideaw(75,89)
-    else:
-        print("No Data")
+    if 140<=a<142:printideaw(30,39)
+    elif a<144:printideaw(33,40)
+    elif a<147:printideaw(35,44)
+    elif a<150:printideaw(38,46)
+    elif a<152:printideaw(40,50)
+    elif a<155:printideaw(42,53)
+    elif a<157:printideaw(45,55)
+    elif a<160:printideaw(48,59)
+    elif a<162:printideaw(50,61)
+    elif a<165:printideaw(53,65)
+    elif a<168:printideaw(56,68)
+    elif a<170:printideaw(58,70)
+    elif a<173:printideaw(60,74)
+    elif a<175:printideaw(63,76)
+    elif a<178:printideaw(65,80)
+    elif a<183:printideaw(75,85)
+    elif a<184:printideaw(75,89)
+    else:      print("No Data")
 def solo(h,sex):
     a= True
     if sex.startswith("Ma")==True:
