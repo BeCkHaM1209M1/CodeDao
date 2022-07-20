@@ -8,31 +8,31 @@ def printideaw(a,b):
 def weightideaF(h):
     if 148<=h<150:
         printideaw(45,49)
-    elif 150<=h<152:
+    elif h<152:
         printideaw(46,50)
-    elif 152<=h<154:
+    elif h<154:
         printideaw(47,52)
-    elif 154<=h<156:
+    elif h<156:
         printideaw(48,53)
-    elif 156<=h<158:
+    elif h<158:
         printideaw(49,54)
-    elif 158<=h<160:
+    elif h<160:
         printideaw(51,56)
-    elif 160<=h<162:
+    elif h<162:
         printideaw(52,57)
-    elif 162<=h<164:
+    elif h<164:
         printideaw(53,59)
-    elif 164<=h<166:
+    elif h<166:
         printideaw(55,60)
-    elif 166<=h<168:
+    elif h<168:
         printideaw(56,62)
-    elif 168<=h<170: 
+    elif h<170: 
         printideaw(57,63)
-    elif 170<=h<172:
+    elif h<172:
         printideaw(59,65)
-    elif 172<=h<174:
+    elif h<174:
         printideaw(60,66)
-    elif 174<=h<176:
+    elif h<176:
         printideaw(61,67)
     else:
         print("No Data")
